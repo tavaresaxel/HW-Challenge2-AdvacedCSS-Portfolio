@@ -4,27 +4,61 @@
 
 }
 
+body{
+    
+    background-image: url(/assets/images/illustration-4603960_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
 header{
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid red;
-    background-color: darkseagreen;
+    border: 6px solid navy;
     align-items: center;
+    height: 15vh;
+    background-image: url(/assets/images/giphy.gif);
+    background-position:120px;
+    background-repeat: no-repeat;
     
 }
 
 header h1{
+    
     flex: 1 0 45%;
+    /* margin-left: 10%; */
+    
+    
+
     
 }
 
 header nav{
-    flex: 1 0 45%;;
+    flex: 1 0 45%;
+    
 }
 
 header ul{
+    
     display: flex;
     flex-direction: row;
     list-style: none;
     justify-content: space-evenly;
+    
 }
+
+figure{
+    background-image: url(https://placehold.co/1200x400);
+    
+
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color:red;
+}
+
