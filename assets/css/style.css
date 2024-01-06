@@ -6,7 +6,7 @@
 
 body{
     
-    background-image: url(/assets/images/illustration-4603960_1920.jpg);
+    background-image: url('../images/illustration-4603960_1920.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     
@@ -18,7 +18,7 @@ header{
     border: 6px solid navy;
     align-items: center;
     height: 15vh;
-    background-image: url(/assets/images/giphy.gif);
+    background-image: url('../images/giphy.gif');
     background-position:120px;
     background-repeat: no-repeat;
     
@@ -49,7 +49,10 @@ header ul{
 }
 
 figure{
-    background-image: url(https://placehold.co/1200x400);
+    background-image: url('../images/dual-screen-1745705_1280.png');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
     
 
 }
