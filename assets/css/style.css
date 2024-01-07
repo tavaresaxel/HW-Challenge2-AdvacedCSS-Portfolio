@@ -105,7 +105,7 @@
   }
   
   #first-project h2 {
-  
+    background-color:rgb(36, 110, 221);
     position: absolute;
     z-index: 2;
     top: 90%;
@@ -118,6 +118,11 @@
     justify-content: space-between;
     margin-top: 30%;
   
+  }
+
+  #other-projects h2{
+    background-color:rgb(36, 110, 221) ;
+    
   }
   
   #work {
