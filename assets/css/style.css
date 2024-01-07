@@ -6,9 +6,10 @@
 
 /* body{
     
-    background-image: url('../images/illustration-4603960_1920.jpg');
+    background-image: url('../images/modern-website-web-design-company-presented-laptop-computer-work-desk-blue-wall-background-194387597.webp');
     background-repeat: no-repeat;
-    background-size:auto;
+    background-size:100%;
+    background-color: darkgrey;
     
     
 } */
@@ -19,16 +20,18 @@ header{
     border: 6px solid navy;
     align-items: center;
     height: 15vh;
-    background-image: url('../images/giphy.gif');
-    background-position:25%;
+    background-image: url('../images/coding-gif-cool.gif');
+    background-position:35%;
     background-repeat: no-repeat;
+    background-size: 20%;
     
 }
 
 header h1{
     
-    flex: 1 0 45%;
-    margin-left: 3%;
+    flex: 1 0 30%;
+    margin-left: 2%;
+    
     
     
 
@@ -36,7 +39,7 @@ header h1{
 }
 
 header nav{
-    flex: 1 0 45%;
+    flex: 1 0 40%;
     
 }
 
@@ -45,26 +48,42 @@ header ul{
     display: flex;
     flex-direction: row;
     list-style: none;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
+    
+    /* padding: 2px solid navy; */
+    
+    
     
 }
 
-figure{
-    /* display:flex;
-    flex-wrap: wrap; */
-    background-image: url('../images/programmer-1653351_640.png');
-    height: 50vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    /* background-position: right; */
-    background-size:cover;
-    /* margin-right: 5%; */
+figcaption{
+    flex: 1 0 45%;  
+    position: relative;
+   
     
-    
-    
-    
-
 }
+
+/* figcaption img{
+    width: 400px;
+    height: 400px;
+} */
+
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: navy;
+}
+
+a:active{
+    color: red;
+}
+
+
+
+
 
 .row{
     display: flex;
@@ -73,19 +92,89 @@ figure{
 .column-left{
     flex: 1 0 20%;
     border: 3px solid navy;
+    padding-left: 2%;
     
 }
 
 .column-right{
-flex: 1 0 70%;
+flex: 1 0 80%;
 border: 3px solid navy;
+
+}
+.column-right p{
+    padding-left: 2%;
 }
 
-a{
-    color: black;
+#long-picture{
+    /* display:flex;
+    flex-wrap: wrap; */
+    background-image: url('../images/laptop-3214756_1280.png');
+    height: 20vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    /* background-position: right; */
+    background-size:100%;
+    background-position: center;
+    /* margin-right: 5%; */
+    
+    
+    
+    
+
 }
 
-a:hover{
-    color:red;
+#first-project-img{
+    background-image: url('../images/programmer-1653351_640.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 25vh;
+    width: 100%;
+    background-position: center;
+    
 }
+
+#first-project-img h2{
+    background-image: url('../images/wood-1108307_640.jpg');
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 30%;
+    position: static;
+}
+
+#other-project-img{
+  background-image: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+
+
+/* #other-project-img img{
+    position:relative;
+    height: 70%;
+    width: 30%;
+    bottom: 30%;
+} */
+
+
+
+
+
+
+
+/* #other-project-img h2{
+    flex: 1 0 50%;
+    background-image: url('../images/wood-1108307_640.jpg');
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 30%;
+    position: static;
+    
+    ;
+} */
+
+
+
 
