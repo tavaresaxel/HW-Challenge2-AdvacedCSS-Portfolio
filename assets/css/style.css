@@ -4,13 +4,14 @@
 
 }
 
-body{
+/* body{
     
     background-image: url('../images/illustration-4603960_1920.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size:auto;
     
-}
+    
+} */
 
 header{
     display: flex;
@@ -19,7 +20,7 @@ header{
     align-items: center;
     height: 15vh;
     background-image: url('../images/giphy.gif');
-    background-position:120px;
+    background-position:25%;
     background-repeat: no-repeat;
     
 }
@@ -27,7 +28,7 @@ header{
 header h1{
     
     flex: 1 0 45%;
-    /* margin-left: 10%; */
+    margin-left: 3%;
     
     
 
@@ -49,12 +50,35 @@ header ul{
 }
 
 figure{
-    background-image: url('../images/dual-screen-1745705_1280.png');
-    height: 600px;
+    /* display:flex;
+    flex-wrap: wrap; */
+    background-image: url('../images/programmer-1653351_640.png');
+    height: 50vh;
+    width: 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    /* background-position: right; */
+    background-size:cover;
+    /* margin-right: 5%; */
+    
+    
+    
     
 
+}
+
+.row{
+    display: flex;
+}
+
+.column-left{
+    flex: 1 0 20%;
+    border: 3px solid navy;
+    
+}
+
+.column-right{
+flex: 1 0 70%;
+border: 3px solid navy;
 }
 
 a{
