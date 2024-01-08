@@ -14,7 +14,7 @@
     border: 2px solid navy;
     align-items: center;
     height: 10vh;
-    background-image: url('../images/gif3.gif');
+    background-image: url('../images/WIN_20231130_17_26_41_Pro.jpg');
     background-position: 25%;
     background-size: 15%;
     background-repeat: no-repeat;
@@ -87,18 +87,17 @@
     flex: 1 0 10%;
      border-right: 1px solid black;
     text-align: right;
-    padding-right: 10%;
+    padding-right: 8%;
   }
   
   .column-right {
     flex: 1 0 80%;
     padding-left: 1%;
+    
   
   }
 
-  #about p{
-    te
-  }
+ 
   
   #first-project {
     background-image: none;
